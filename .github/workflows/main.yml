@@ -1,7 +1,5 @@
 name: Publish to npm on release
-on:
-  release:
-    types: [created]
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
